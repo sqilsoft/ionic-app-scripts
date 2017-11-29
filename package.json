@@ -1,10 +1,11 @@
 {
-  "name": "@ionic/app-scripts",
-  "version": "3.1.2",
+  "name": "@sqilsoft/ionic-app-scripts",
+  "version": "3.1.5",
   "description": "Scripts for Ionic Projects",
   "homepage": "https://ionicframework.com/",
   "author": "Ionic Team <hi@ionic.io> (https://ionic.io)",
   "license": "MIT",
+  "private": false,
   "files": [
     "bin/",
     "config/",
@@ -96,10 +97,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/ionic-app-scripts.git"
+    "url": "git+https://github.com/sqilsoft/ionic-app-scripts.git"
   },
   "bugs": {
-    "url": "https://github.com/ionic-team/ionic-app-scripts/issues"
+    "url": "https://github.com/sqilsoft/ionic-app-scripts/issues"
   },
   "config": {
     "commitizen": {
