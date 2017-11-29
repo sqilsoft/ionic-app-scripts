@@ -230,6 +230,10 @@ function getComponentDirectories(moduleDirectories: string[], sassConfig: SassCo
       if (moduleDirectory.indexOf('/node_modules/' + sassConfig.excludeModules[i] + '/') > -1) {
         return false;
       }
+      // skip local modules for ox chat
+      if (process.env.app && process.env.app === 'chat' && moduleDirectory.indexOf('/ui/' + sassConfig.excludeModules[i] + '/') > -1) {
+        return false;
+      }
     }
     return true;
   });
